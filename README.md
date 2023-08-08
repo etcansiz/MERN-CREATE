@@ -7,17 +7,17 @@
 
 > ***npm create -y***
 >
-> ***npm i mongoose express dotenv nodemon***
+> ***npm i mongoose express dotenv nodemon cors***
 >
 
 In package.json  
 
->***"type": "module"***
+> ***"type": "module"***
 >
-> "scripts": {
+> ***"scripts": {
     "devStart": "nodemon server.js"
-  } 
-
+  }*** 
+  
   
 
 ### This is server.js file which connects us to the DB
