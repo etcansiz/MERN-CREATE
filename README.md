@@ -4,11 +4,15 @@
 
 ### For Server Side Creating Node.js
 
+```sh
+npm create -y
+```
+ Now we are ready to install packages
 
-> ***npm create -y***
->
-> ***npm i mongoose express dotenv nodemon cors***
->
+```sh
+npm i mongoose express dotenv nodemon cors
+```
+
 
 In package.json  
 
@@ -56,6 +60,26 @@ app.listen(4000, () => console.log('Server Started.'));
 
 
 ```
+
+### To start server ...
+```sh
+npm run devStart
+```
+
+## CLIENT SIDE
+
+### It is easy, we just create and start a React project.
+
+```sh
+npx create-react-app my-react-app
+```
+
+### After create write this to the terminal.
+```sh
+npm start
+```
+## Now you are ready to the develope full stack websites.
+
 
 
 
