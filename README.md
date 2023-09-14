@@ -33,7 +33,7 @@ import dotenv from 'dotenv';
 import mongoose from 'mongoose';
 import express from 'express';
 import cors from 'cors';
-import routes from './Router/routes.js';
+
 
 
 //This file for security,we create .env file and giving the DATABASE_URL = "you will copy from your own mongodb cluster" 
@@ -54,7 +54,7 @@ const db = mongoose.connection;
 db.on('error', (error) => console.error(error));
 db.once('open', () => console.log('Connected to the database...'));
 
-app.use(routes);
+
 
 app.listen(4000, () => console.log('Server Started.'));
 
